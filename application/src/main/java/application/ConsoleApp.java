@@ -34,7 +34,7 @@ public class ConsoleApp {
         final String name = console.readLine("Enter book title: ");
         final String author = console.readLine("Enter author name: ");
         final String description = console.readLine("Enter description: ");
-        if (name.isBlank() || author.isBlank()|| description.isBlank()) {
+        if (name=="" || author==""|| description=="") {
             console.writer()
                     .println("Book not created, all arguments are required!");
         } else {
